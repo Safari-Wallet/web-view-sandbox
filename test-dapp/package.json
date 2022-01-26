@@ -1,0 +1,24 @@
+{
+    "name": "test-dapp",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "package": "svelte-kit package",
+        "preview": "svelte-kit preview"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "svelte": "^3.44.0"
+    },
+    "type": "module",
+    "dependencies": {
+        "@sveltejs/adapter-static": "^1.0.0-next.13",
+        "autoprefixer": "^10.4.1",
+        "cssnano": "^5.0.14",
+        "postcss-nested": "^5.0.6",
+        "sass": "^1.46.0",
+        "svelte-preprocess": "^4.10.1"
+    }
+}

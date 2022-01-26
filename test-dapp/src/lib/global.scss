@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition-duration: 0s !important;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: 'Segoe UI', Arial, BlinkMacSystemFont, -apple-system, system-ui, sans-serif;
+    margin: 0;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    max-width: 300px;
+    gap: 14px;
+    width: 100%;
+}
