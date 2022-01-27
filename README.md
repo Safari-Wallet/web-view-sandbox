@@ -2,6 +2,12 @@
 
 *This codebase is currently sloppy and repetitive. It was hastily shipped to iterate on some designs as quickly as possible.*
 
+https://sandbox.safariwallet.org is synced with https://sandbox-safariwallet-org.vercel.app.
+
+https://sandbox-safariwallet-org.vercel.app builds the project in the `test-dapp` folder.
+
+## How to use
+
 After cloning the repo, set up the sandbox environment (it's built with [SvelteKit](https://kit.svelte.dev)):
 
 ```sh
